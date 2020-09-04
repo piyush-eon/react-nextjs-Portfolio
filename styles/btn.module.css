@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.btnmain {
+  font-weight: 500;
+  font-size: 17px;
+  transition: all 0.3s ease 0s;
+}
+
+.btnmain:hover {
+  color: white;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  padding: 8px 25px;
+  margin: -8px -25px;
+  border-radius: 50px;
+}
+.btnprim {
+  color: white;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  padding: 8px 25px;
+  margin: -8px -25px;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+.btnprim:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
