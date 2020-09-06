@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className={styles.navkeys}>
           <ul className={styles.list}>
             <li>
-              <ButtonMain href="#services">Services</ButtonMain>
+              <ButtonMain href="#home">Home</ButtonMain>
             </li>
             <li>
               <ButtonMain href="#projects">Projects</ButtonMain>
