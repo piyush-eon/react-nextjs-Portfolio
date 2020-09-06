@@ -3,6 +3,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## To add Further
 
 Complete Home Page <br>
-Add services page<br>
+Completed Projects page ✔ <br>
 Add About page<br>
 Add Contact page
