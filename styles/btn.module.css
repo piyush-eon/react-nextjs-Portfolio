@@ -26,3 +26,13 @@
 .btnprim:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
+
+@media only screen and (max-width: 750px) {
+  .btnmain:hover {
+    color: white;
+    background-color: rgb(0, 120, 150);
+    border: none;
+    padding: 11px 100vh;
+    margin: -11px -100vh;
+  }
+}

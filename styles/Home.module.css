@@ -3,6 +3,8 @@
   flex-direction: column;
 }
 
+/* NAVBAR */
+
 .nav {
   width: 100%;
   height: 60px;
@@ -12,15 +14,19 @@
   background-color: #ececec;
   padding: 0px 9%;
   box-shadow: 0px 1px 5px black;
-  z-index: 1;
+  z-index: 10;
 }
 .main {
   justify-self: center;
 }
 
+.contact {
+  margin-left: 5px;
+}
+
 .navkeys {
   margin-left: auto;
-  width: 50%;
+  width: 42.5%;
   padding-bottom: 1px;
 }
 
@@ -38,6 +44,69 @@
   justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 1040px) {
+  .navkeys {
+    width: 60%;
+  }
+  .img {
+    width: 130px;
+    padding-left: 5px;
+  }
+  .nav {
+    padding: 0px 8%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .navkeys {
+    position: fixed;
+  }
+  .list {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(62, 154, 197);
+    width: 100%;
+    color: #ececec;
+    margin-left: -8%;
+    margin-top: 31px;
+  }
+  .list li {
+    margin: 10px;
+  }
+  .img {
+    width: 100px;
+    padding-left: 0px;
+  }
+  .contact {
+    margin-right: 15px;
+    width: 65px;
+    font-size: 11px;
+    text-align: center;
+    margin-left: auto;
+  }
+  .line {
+    width: 30px;
+    height: 4px;
+    background: rgb(41, 41, 41);
+    margin: 2.5px;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: -21px;
+  }
+  .nav {
+    padding: 0px 8%;
+  }
+}
+
+/* HOME */
+
 .section {
   background-image: url("../public/backgrounds/back.png");
   display: flex;
@@ -47,8 +116,8 @@
   background-color: #fafafa00;
   flex-direction: column;
   height: 100vh;
-  background-size:contain;
-  /* scroll-snap-align: center; */
+  background-size: contain;
+  scroll-snap-align: center;
 }
 .section h1 {
   color: black;
@@ -80,7 +149,7 @@
   .section h2 {
     font-size: 20px;
   }
-  .headingfull{
+  .headingfull {
     height: 125px;
   }
 }
@@ -92,14 +161,10 @@
   .section h2 {
     font-size: 10px;
   }
-  .headingfull{
+  .headingfull {
     height: 80px;
   }
 }
-
-
-
-
 
 @keyframes cssAnimation {
   to {
@@ -108,6 +173,17 @@
 }
 
 /*  PROJECTS  */
+
+.cardsize {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.carddesc {
+  height: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 
 .cards {
   display: flex;
@@ -123,8 +199,9 @@
   display: none;
 }
 @media only screen and (max-width: 800px) {
-  .projectHeading{
+  .projectHeading {
     padding: 10px;
+    font-size: 100px;
   }
   .cards {
     display: flex;

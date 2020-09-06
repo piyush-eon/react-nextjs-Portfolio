@@ -7,6 +7,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import styles from "../../styles/Home.module.css";
+
 
 const useStyles = makeStyles({
   root: {
@@ -25,22 +27,22 @@ export default function ProjectCard({ name, image, description }) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={styles.cardsize}>
       <CardActionArea>
         <CardMedia component="img" height="120" image={image} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {name}
           </Typography>
-          <Typography variant="body2" className={classes.desc} color="textSecondary" component="p">
+          <Typography variant="body2" className={styles.carddesc} color="textSecondary" component="p">
             {description}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        {/* <Button size="small" color="primary">
           Share
-        </Button>
+        </Button> */}
         
         <Button size="small" color="primary">
           Learn More
