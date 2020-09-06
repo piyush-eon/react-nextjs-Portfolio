@@ -8,22 +8,22 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import styles from "../../styles/Home.module.css";
-
+import ProjectModal from "./ProjectModal";
 
 const useStyles = makeStyles({
   root: {
     width: 300,
     marginBottom: 20,
-    textOverflow:"ellipsis",
+    textOverflow: "ellipsis",
   },
-  desc:{
-    height:100,
-    textOverflow:"ellipsis",
-    overflow:"hidden"
-  }
+  desc: {
+    height: 100,
+    textOverflow: "ellipsis",
+    overflow: "hidden",
+  },
 });
 
-export default function ProjectCard({ name, image, description }) {
+export default function ProjectCard({ name, image, description, link }) {
   const classes = useStyles();
 
   return (
@@ -34,7 +34,12 @@ export default function ProjectCard({ name, image, description }) {
           <Typography gutterBottom variant="h5" component="h2">
             {name}
           </Typography>
-          <Typography variant="body2" className={styles.carddesc} color="textSecondary" component="p">
+          <Typography
+            variant="body2"
+            className={styles.carddesc}
+            color="textSecondary"
+            component="p"
+          >
             {description}
           </Typography>
         </CardContent>
@@ -43,10 +48,12 @@ export default function ProjectCard({ name, image, description }) {
         {/* <Button size="small" color="primary">
           Share
         </Button> */}
-        
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
+        <ProjectModal
+          name={name}
+          description={description}
+          image={image}
+          link={link}
+        />
       </CardActions>
     </Card>
   );
