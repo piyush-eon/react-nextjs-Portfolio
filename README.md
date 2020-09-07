@@ -4,5 +4,5 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Complete Home Page <br>
 Completed Projects page ✔ <br>
-Add About page<br>
-Add Contact page
+Completed About page ✔ <br>
+Completed Contact page ✔
