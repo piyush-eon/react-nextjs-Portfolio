@@ -3,6 +3,8 @@ import styles from "../styles/Home.module.css";
 import Navbar from "./components/Navbar";
 import ProjectsPage from "./components/ProjectsPage";
 import HomePage from "./components/HomePage";
+import ContactPage from "./components/ContactPage";
+import AboutPage from "./components/AboutPage";
 
 const sample = "./sample.jpg";
 
@@ -23,10 +25,12 @@ export default function Home() {
           <ProjectsPage />
         </section>
         <section id="about" className={styles.section}>
-          <h1>About</h1>
+          <h1>About Me</h1>
+          <AboutPage />
         </section>
         <section id="contact" className={styles.section}>
-          <h1>Contact</h1>
+          <h1>Get In Touch</h1>
+          <ContactPage />
         </section>
       </main>
     </div>

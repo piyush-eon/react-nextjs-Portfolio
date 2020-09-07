@@ -116,9 +116,10 @@
   background-color: #fafafa00;
   flex-direction: column;
   height: 100vh;
-  background-size: contain;
-  scroll-snap-align: center;
+  background-size: cover;
+  /* scroll-snap-align: center; */
 }
+
 .section h1 {
   color: black;
   font-size: 40px;

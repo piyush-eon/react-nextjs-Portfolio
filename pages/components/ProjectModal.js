@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
   item: {
     marginRight: 20,
     marginBottom: 25,
-    textAlign: "center",
+    textAlign: "justify",
   },
 }));
 

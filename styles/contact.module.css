@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  height: 50vh;
+  width: 90vh;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+}
