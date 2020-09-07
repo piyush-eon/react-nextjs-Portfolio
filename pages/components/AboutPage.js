@@ -12,9 +12,8 @@ export default function AboutPage() {
         <p>
           Piyush Agarwal is an Indian Javascipt Developer working on
           technologies like React JS, Material UI, Next JS, Node JS and Express
-          JS. Piyush Agarwal is an Indian Javascipt Developer working on
-          technologies like React JS, Material UI, Next JS, Node JS and Express
-          JS.
+          JS. I was born and raised in Kanpur, Uttar Pradesh. In my free time I
+          like to work as a freelance voice over artist on fiverr.
         </p>
         <table>
           <tr>
@@ -34,9 +33,11 @@ export default function AboutPage() {
             <td>Making Videos on the Internet</td>
           </tr>
         </table>
-        <Button variant="outlined" color="primary">
-          More
-        </Button>
+        <a href="https://www.linkedin.com/in/piyush-agarwal-440976179/">
+          <Button style={{ width: "100%" }} variant="outlined" color="primary">
+            More
+          </Button>
+        </a>
       </div>
     </div>
   );
