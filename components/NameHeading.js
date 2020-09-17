@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../../styles/name.module.css";
+import styles from "../styles/name.module.css";
 
 export default function NameHeading() {
   return (

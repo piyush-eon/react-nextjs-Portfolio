@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/about.module.css";
+import styles from "../styles/about.module.css";
 import Button from "@material-ui/core/Button";
 
 const me = "./images/me.png";

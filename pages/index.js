@@ -1,10 +1,10 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Navbar from "./components/Navbar";
-import ProjectsPage from "./components/ProjectsPage";
-import HomePage from "./components/HomePage";
-import ContactPage from "./components/ContactPage";
-import AboutPage from "./components/AboutPage";
+import Navbar from "../components/Navbar";
+import ProjectsPage from "../components/ProjectsPage";
+import HomePage from "../components/HomePage";
+import ContactPage from "../components/ContactPage";
+import AboutPage from "../components/AboutPage";
 
 const sample = "./sample.jpg";
 

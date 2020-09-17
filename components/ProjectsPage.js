@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
-import styles from "../../styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 
 const insta = "./gif/1.gif";
 const covid = "./gif/2.gif";

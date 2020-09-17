@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import styles from "../../styles/Home.module.css";
-import ButtonMain from "../../components/buttons/ButtonMain";
-import ButtonPrim from "../../components/buttons/ButtonPrim";
+import styles from "../styles/Home.module.css";
+import ButtonMain from "./ButtonMain";
+import ButtonPrim from "./ButtonPrim";
 
 const logo = "./images/logo.png";
 

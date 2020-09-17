@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/Contact.module.css";
+import styles from "../styles/Contact.module.css";
 import TextField from "@material-ui/core/TextField";
 import { Button } from "@material-ui/core";
 
