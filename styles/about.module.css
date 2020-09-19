@@ -33,3 +33,29 @@
 .sec td {
   text-align: left;
 }
+@media only screen and (max-width: 750px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    height: 40vh;
+    margin: 10px 0;
+  }
+  .sec {
+    font-size: 15px;
+  }
+  .sec tr {
+    padding-top: 2px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    height: 40vh;
+    margin-bottom: 10px;
+  }
+}

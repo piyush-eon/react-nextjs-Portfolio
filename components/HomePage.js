@@ -5,11 +5,11 @@ import NameHeading from "./NameHeading";
 export default function HomePage() {
   return (
     <div className={styles.headingfull}>
-      <h1>Hey, My Name Is..</h1>
+      <h1 className={styles.h1main}>Hey, My Name Is..</h1>
       <div className={styles.nameHeading}>
         <NameHeading />
       </div>
-      <h2>I'm a Web Developer</h2>
+      <h2 className={styles.h2main}>I'm a Web Developer</h2>
     </div>
   );
 }

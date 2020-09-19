@@ -30,7 +30,7 @@ export default function AboutPage() {
           </tr>
           <tr>
             <th>Hobbies</th>
-            <td>Making Videos on the Internet</td>
+            <td>Making Videos on Internet</td>
           </tr>
         </table>
         <a href="https://www.linkedin.com/in/piyush-agarwal-440976179/">

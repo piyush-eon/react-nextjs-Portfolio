@@ -18,6 +18,7 @@
 }
 .main {
   justify-self: center;
+  overflow: hidden;
 }
 
 .contact {
@@ -58,6 +59,9 @@
 }
 
 @media only screen and (max-width: 750px) {
+  .nav {
+    width: 100%;
+  }
   .navkeys {
     position: fixed;
   }
@@ -164,6 +168,9 @@
   }
   .headingfull {
     height: 80px;
+  }
+  .nameHeading {
+    width: 250px;
   }
 }
 
