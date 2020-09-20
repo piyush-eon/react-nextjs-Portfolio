@@ -16,6 +16,7 @@
   box-shadow: 0px 1px 5px black;
   z-index: 10;
 }
+
 .main {
   justify-self: center;
   overflow: hidden;
@@ -146,6 +147,12 @@
   transition: all 0.3s ease 0s;
 }
 
+@media only screen and (max-width: 460px) {
+  .headingfull {
+    width: 60%;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .section h1 {
     color: black;
@@ -161,16 +168,16 @@
 @media only screen and (max-width: 600px) {
   .section h1 {
     color: black;
-    font-size: 15px;
+    font-size: 20px;
   }
   .section h2 {
-    font-size: 10px;
+    font-size: 15px;
   }
   .headingfull {
     height: 80px;
   }
   .nameHeading {
-    width: 250px;
+    width: 280px;
   }
 }
 

@@ -6,39 +6,42 @@ import Fade from "@material-ui/core/Fade";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles((theme) => ({
-  modal: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  paper: {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    backgroundColor: theme.palette.background.paper,
-    // border: "2px solid #000",
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
-    maxWidth: "80%",
-  },
-  desc: {
-    display: "flex",
-    flexDirection: "column",
-    maxWidth: "50%",
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 20,
-  },
-  item: {
-    marginRight: 20,
-    marginBottom: 25,
-    textAlign: "justify",
-  },
-}));
+import styles from "../styles/modal.module.css";
+
+// const useStyles = makeStyles((theme) => ({
+//   modal: {
+//     display: "flex",
+//     alignItems: "center",
+//     justifyContent: "center",
+//   },
+//   paper: {
+//     display: "flex",
+//     flexDirection: "row",
+//     justifyContent: "center",
+//     backgroundColor: theme.palette.background.paper,
+//     // border: "2px solid #000",
+//     boxShadow: theme.shadows[5],
+//     padding: theme.spacing(2, 4, 3),
+//     maxWidth: "80%",
+//     maxHeight: "80%",
+//   },
+//   desc: {
+//     display: "flex",
+//     flexDirection: "column",
+//     maxWidth: "50%",
+//     justifyContent: "center",
+//     alignItems: "center",
+//     padding: 20,
+//   },
+//   item: {
+//     marginRight: 20,
+//     marginBottom: 25,
+//     textAlign: "justify",
+//   },
+// }));
 
 export default function TransitionsModal({ name, image, description, link }) {
-  const classes = useStyles();
+  // const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
@@ -57,7 +60,7 @@ export default function TransitionsModal({ name, image, description, link }) {
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
-        className={classes.modal}
+        className={styles.modal}
         open={open}
         onClose={handleClose}
         closeAfterTransition
@@ -67,17 +70,17 @@ export default function TransitionsModal({ name, image, description, link }) {
         }}
       >
         <Fade in={open}>
-          <div className={classes.paper}>
-            <div className={classes.desc}>
-              <h2 id="transition-modal-title" className={classes.item}>
+          <div className={styles.paper}>
+            <div className={styles.desc}>
+              <h2 id="transition-modal-title" className={styles.item}>
                 {name}
               </h2>
-              <Typography className={classes.item}>{description}</Typography>
+              <Typography className={styles.item}>{description}</Typography>
               <Button variant="contained" color="primary">
                 <a href={link}>OPEN</a>
               </Button>
             </div>
-            <img src={image} />
+            <img src={image} className={styles.img} />
           </div>
         </Fade>
       </Modal>

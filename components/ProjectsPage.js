@@ -15,9 +15,7 @@ export default function ProjectsPage() {
         <ProjectCard
           name="Instagram Clone"
           image={insta}
-          description=" Instagram Clone built with React JS and Material UI in frontend and used Firebase for the backend.
-              Users can SignUp and log in to their accounts and post pictures with a caption. They can interact with other users by commenting on their posts.
-              Also, posts in the right row are using the Instagram API to fetch a post from my real Instagram account."
+          description=" Instagram Clone built with React JS and Material UI in frontend and used Firebase for the backend. Users can SignUp and log in to their accounts and post pictures with a caption. They can interact with other users by commenting on their posts. Also, posts in the right row are using the Instagram API to fetch a post from my real Instagram account."
           link="https://instagram-clone-react-d14b7.web.app/"
         />
         <ProjectCard
