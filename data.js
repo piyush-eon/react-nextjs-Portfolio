@@ -11,7 +11,7 @@ export const projects = [
     image: "./gif/5.gif",
     description:
       "Selling Creative stuff for super creative beings.\n Full Stack Project made in React JS,Node JS, Express JS and Mongo DB. User can order any product and provide rating as well.Payment option include Paypal or debit / credit cards. Admin can mark products as delivered. ",
-    link: "https://github.com/piyush-eon/Artixie-ecommerce-store",
+    link: "http://artixie.herokuapp.com/",
   },
   {
     name: "COVID-19 Tracker",
@@ -33,6 +33,6 @@ export const projects = [
     image: "./gif/4.gif",
     description:
       "Note Zipper provides you one safe place for all your notes. Full Stack Project made in React JS,Node JS, Express JS and Mongo DB. Login / signup feature keeps all your notes safe in our database.",
-    link: "https://github.com/piyush-eon/notezipper",
+    link: "https://notezipper.herokuapp.com/",
   },
 ];
