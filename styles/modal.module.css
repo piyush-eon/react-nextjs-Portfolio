@@ -31,6 +31,7 @@
 
 .img {
   padding: 25px;
+  max-height: 330px;
 }
 
 @media only screen and (max-width: 800px) {

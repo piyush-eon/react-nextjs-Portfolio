@@ -120,7 +120,7 @@
   align-items: center;
   background-color: #fafafa00;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   scroll-snap-align: center;
 }
@@ -192,6 +192,8 @@
 .cardsize {
   width: 300px;
   margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 .carddesc {
