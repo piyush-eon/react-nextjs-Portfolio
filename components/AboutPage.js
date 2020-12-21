@@ -12,8 +12,8 @@ export default function AboutPage() {
         <p>
           Piyush Agarwal is an Indian Javascipt Developer working on
           technologies like React JS, Material UI, Next JS, Node JS and Express
-          JS. I was born and raised in Kanpur, Uttar Pradesh. In my free time I
-          like to work as a freelance voice over artist on fiverr.
+          JS. Born and raised in Kanpur, Uttar Pradesh. In his free time he
+          likes to work as a freelance voice over artist on fiverr.
         </p>
         <table>
           <tr>
