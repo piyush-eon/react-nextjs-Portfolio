@@ -1,5 +1,7 @@
+import { Button } from "@material-ui/core";
 import React from "react";
 import styles from "../styles/Home.module.css";
+import ButtonPrim from "./ButtonPrim";
 import NameHeading from "./NameHeading";
 
 export default function HomePage() {
@@ -10,6 +12,17 @@ export default function HomePage() {
         <NameHeading />
       </div>
       <h2 className={styles.h2main}>I'm a Web Developer</h2>
+      <div
+        style={{
+          paddingTop: 50,
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+        }}
+        className={styles.learnmore}
+      >
+        <ButtonPrim href="#projects">Learn More</ButtonPrim>
+      </div>
     </div>
   );
 }
