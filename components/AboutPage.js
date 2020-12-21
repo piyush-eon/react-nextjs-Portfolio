@@ -35,7 +35,7 @@ export default function AboutPage() {
         </table>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <a
-            style={{ width: "49.5%" }}
+            style={{ width: "32.5%" }}
             href="https://media-exp1.licdn.com/dms/document/C4E2DAQE7MhFvZWa6OQ/profile-treasury-document-pdf-analyzed/0/1607164046910?e=1608656400&v=beta&t=Ab3qP17QaNyN_kKgb7NukF1KH7bc4ggVdq3lI3ANP7Q"
             target="_blank"
           >
@@ -48,7 +48,20 @@ export default function AboutPage() {
             </Button>
           </a>
           <a
-            style={{ width: "49.5%" }}
+            style={{ width: "32.5%" }}
+            href="https://github.com/piyush-eon"
+            target="_blank"
+          >
+            <Button
+              style={{ width: "100%" }}
+              variant="contained"
+              color="secondary"
+            >
+              GitHub
+            </Button>
+          </a>
+          <a
+            style={{ width: "32.5%" }}
             href="https://www.linkedin.com/in/piyush-agarwal-440976179/"
             target="_blank"
           >
