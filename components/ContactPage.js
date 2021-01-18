@@ -32,7 +32,7 @@ export default function ContactPage() {
         }
       )
       .then(() => {
-        alert("We will reach out to you very soon 👍");
+        alert("I will reach out to you very soon 👍");
         setLoader(false);
       })
       .catch((error) => {

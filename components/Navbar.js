@@ -10,21 +10,21 @@ export default function Navbar() {
   const [Nav, setNav] = useState(0);
   const handleClick = () => {
     if (Nav == 0) {
-      document.getElementById("listnav").style.cssText = "display:flex;";
+      document.getElementById("listnav").style.cssText = "display:flex; ";
       setNav(1);
       document.getElementById("line1").style.cssText =
-        "transform: rotate(45deg);";
+        "transform: rotate(45deg); transition: all 0.3s; ";
       document.getElementById("line3").style.cssText = "display:none";
       document.getElementById("line2").style.cssText =
-        "transform: rotate(-45deg); margin-top:-7px;";
+        "transform: rotate(-45deg); margin-top:-7px; transition: all 0.3s;";
     } else {
       document.getElementById("listnav").style.cssText =
-        "display:none; transition: all 0.3s ease 0s;";
+        "display:none;";
       document.getElementById("line1").style.cssText =
-        "transform: rotate(0deg);";
-      document.getElementById("line2").style.cssText = "display:block";
+        "transform: rotate(0deg); transition: all 0.3s;";
+      document.getElementById("line2").style.cssText = "display:block; transition: all 0.3s;";
       document.getElementById("line3").style.cssText =
-        "transform: rotate(0deg);";
+        "transform: rotate(0deg); transition: all 0.5s;";
       setNav(0);
     }
   };
