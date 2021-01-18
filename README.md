@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## To add Further
 
-Complete Home Page <br>
+Complete Home Page ✔ <br>
 Completed Projects page ✔ <br>
 Completed About page ✔ <br>
 Completed Contact page ✔
